@@ -1,0 +1,12 @@
+{
+  "name": "asta-browser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^32.0.0",
+    "ollama": "^0.6.2"
+  }
+}

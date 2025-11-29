@@ -1,0 +1,29 @@
+{
+  "conversations": [
+    {
+      "timestamp": "2025-11-13T02:03:24.897Z",
+      "user": "click the for publshers button",
+      "assistant": "{\"action\": \"view-source\"}"
+    },
+    {
+      "timestamp": "2025-11-13T12:31:47.366Z",
+      "user": "look up portugal fc",
+      "assistant": "{\"action\":\"read-page\"}"
+    },
+    {
+      "timestamp": "2025-11-13T12:32:02.332Z",
+      "user": "take em to discord",
+      "assistant": "Sure, I’ll open Discord for you.\n\n{\n  \"action\": \"navigate\",\n  \"url\": \"https://discord.com\"\n}"
+    },
+    {
+      "timestamp": "2025-11-13T12:39:54.461Z",
+      "user": "click the 1st video on the right",
+      "assistant": "We need to view source then find selector.\n\nLet's request view-source.{\"action\":\"view-source\"}Search for \"compact-video-renderer\".{\"action\":\"find-text\",\"text\":\"compact-video-renderer\"}"
+    },
+    {
+      "timestamp": "2025-11-13T12:40:11.313Z",
+      "user": "click youtube home",
+      "assistant": "I'll locate the “Home” navigation element and click it.\n\n{\n  \"action\": \"find-text\",\n  \"text\": \"Home\"\n}"
+    }
+  ]
+}
